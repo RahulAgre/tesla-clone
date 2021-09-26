@@ -8,7 +8,17 @@
 
 body {
   width: 100%;
-  overflow-x: hidden;
+  overflow: overlay;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
 }
 
 a {
